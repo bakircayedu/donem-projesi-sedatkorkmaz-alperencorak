@@ -1,0 +1,137 @@
+{
+	"_id": {
+		"$oid": "61d4969245c4f24b6c575114"
+	},
+	"name": "sedat korkmaz ",
+	"email": "sedat@gmail.com",
+	"role": "user",
+	"password": "$2a$10$.cN923MUgkdM74Vs2QVtcOvefofWjQHjeHkG9/ns.GbnT.gXQREl6",
+	"profile_image": "image_61d4969245c4f24b6c575114.png",
+	"reading_list": [
+		{
+			"$oid": "61d499a245c4f24b6c5751c2"
+		},
+		{
+			"$oid": "61d4983445c4f24b6c57518c"
+		},
+		{
+			"$oid": "61d49a8945c4f24b6c5751ff"
+		}
+	],
+	"blocked": false,
+	"createdAt": {
+		"$date": "2022-01-04T18:48:50.226Z"
+	},
+	"__v": 3
+}
+{
+	"_id": {
+		"$oid": "61d496ac45c4f24b6c575123"
+	},
+	"name": "alperen çorak ",
+	"email": "alperen@gmail.com",
+	"role": "user",
+	"password": "$2a$10$OsQjTvOSi86Wz775lxe8ae/SzBeYHtto7vsi2w638ZGmE2pxGGbpq",
+	"profile_image": "image_61d496ac45c4f24b6c575123.jpeg",
+	"reading_list": [
+		{
+			"$oid": "61d499a245c4f24b6c5751c2"
+		},
+		{
+			"$oid": "61d497e845c4f24b6c57516d"
+		},
+		{
+			"$oid": "61d49a8945c4f24b6c5751ff"
+		}
+	],
+	"blocked": false,
+	"createdAt": {
+		"$date": "2022-01-04T18:49:16.592Z"
+	},
+	"__v": 3
+}
+{
+	"_id": {
+		"$oid": "61d496f745c4f24b6c57513a"
+	},
+	"name": "deniz kılınç",
+	"email": "denizkilinc@gmail.com",
+	"role": "user",
+	"password": "$2a$10$7SZ5ixedk0YSmX2.e20lxuXFGYKZtAc8GKdPmO06RPG6J0wQlU17e",
+	"profile_image": "image_61d496f745c4f24b6c57513a.jpeg",
+	"reading_list": [
+		{
+			"$oid": "61d49a8945c4f24b6c5751ff"
+		},
+		{
+			"$oid": "61d497e845c4f24b6c57516d"
+		}
+	],
+	"blocked": false,
+	"createdAt": {
+		"$date": "2022-01-04T18:50:31.222Z"
+	},
+	"__v": 2
+}
+{
+	"_id": {
+		"$oid": "61d4971b45c4f24b6c575149"
+	},
+	"name": "hira ",
+	"email": "hira@gmail.com",
+	"role": "user",
+	"password": "$2a$10$YAVsR7fo/0pzmsCZtdjoxebtz4tdlwtCJE22dZMIjaQO8.B/WVg0q",
+	"profile_image": "image_61d4971b45c4f24b6c575149.png",
+	"reading_list": [
+		{
+			"$oid": "61d499a245c4f24b6c5751c2"
+		},
+		{
+			"$oid": "61d49a8945c4f24b6c5751ff"
+		},
+		{
+			"$oid": "61d497e845c4f24b6c57516d"
+		}
+	],
+	"blocked": false,
+	"createdAt": {
+		"$date": "2022-01-04T18:51:07.337Z"
+	},
+	"__v": 3
+}
+{
+	"_id": {
+		"$oid": "61d4973045c4f24b6c575158"
+	},
+	"name": "deniz ",
+	"email": "deniz@gmail.com",
+	"role": "user",
+	"password": "$2a$10$Sd4tAzMQGjqqHg7MVvCzHehSiL4.9j.mZ7ERH5EKwFroXL92KvnlG",
+	"profile_image": "image_61d4973045c4f24b6c575158.png",
+	"reading_list": [
+		{
+			"$oid": "61d499a245c4f24b6c5751c2"
+		}
+	],
+	"blocked": false,
+	"createdAt": {
+		"$date": "2022-01-04T18:51:28.359Z"
+	},
+	"__v": 1
+}
+{
+	"_id": {
+		"$oid": "61d49d2f45c4f24b6c57550a"
+	},
+	"name": "okan öztürkmenoğlu",
+	"email": "okan@gmail.com",
+	"role": "user",
+	"password": "$2a$10$.MLZTAunw4LiBuLaRv5GFeR5jcX56TY9483.63GaNIG8RKd7TZjq.",
+	"profile_image": "default.png",
+	"reading_list": [],
+	"blocked": false,
+	"createdAt": {
+		"$date": "2022-01-04T19:17:03.686Z"
+	},
+	"__v": 0
+}

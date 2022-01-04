@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <%- include('partials/header'); %>
+  <style>
+    .crop {
+        max-height: 200px;
+        overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <%- include('partials/navbar'); %>
+  <section id="blogs">
+    <div class="pt-5 d-flex justify-content-center">
+        <h2> You have <%= result.pagination.total %> articles</h2>
+    </div>
+    
+    <%- include('partials/articles'); %>
+
+
+    <div class="d-flex justify-content-center">
+      <% if (result.pagination.total !== 0) { %>
+        
+        <% for( let i = 1; i < result.pagination.totalPage+1; i++ ) { %>
+          <a href="http://localhost:8080/?page=<%= i %>&userId=<%= req.user.data._id %> " role="button" aria-disabled="true" type="button" class="btn  mx-3 mb-4
+            <% if (i == result.pagination.current) { %>
+           btn-dark disabled
+          <% }else {%> 
+            btn-outline-dark
+            <% } %>
+          "><%= i %></a>
+      <% } %>
+
+      <% } %>
+
+    </div>
+  </section>
+  
+
+
+  <%- include('partials/footer'); %>
+</body>
+</html>
+
+
+
+
+
